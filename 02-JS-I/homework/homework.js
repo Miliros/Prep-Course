@@ -184,6 +184,14 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
+  if (numero > 0) {
+    return  'Es positivo';
+  } if (numero < 0) {
+    return 'Es negativo';
+  } else ( numero == 0) 
+  {
+    return false;
+  }
   
   
 }
@@ -230,7 +238,7 @@ function retornarPerimetro(lado){
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-
+  return base * altura / 2
 }
 
 
@@ -238,7 +246,7 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  
+  return euro * 1.20
 }
 
 
@@ -248,7 +256,14 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  
+  if (letra == "a", "e", "i", "o", "u") {
+    return 'Es vocal';
+  } if  (letra.length > 1) {
+    return 'Dato incorrecto';
+  } if (letra != 'a','e', 'i', 'o', 'u') 
+  {
+    return 'Dato incorrecto';
+  }
 }
 
 
