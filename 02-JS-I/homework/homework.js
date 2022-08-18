@@ -193,7 +193,6 @@ function esPositivo(numero) {
     return false;
   }
   
-  
 }
 
 function agregarSimboloExclamacion(str) {
